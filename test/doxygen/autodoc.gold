@@ -125,9 +125,9 @@ This is a test function. <link linkend="doxygen.example_reference.classexample_1
           <template-nontype-parameter name="NonTypeParameter"><type>int</type><purpose><para>This is a non-type template parameter </para></purpose></template-nontype-parameter>
         </template><description><para>Testing a function template. 
 </para></description></function>
-<function id="doxygen.example_reference.example_8hpp_1a4800b953c786398bc33de2f173c5aff3" name="widget" trailing="1"><type>widget&lt; T &gt;</type><template>
+<deduction-guide id="doxygen.example_reference.example_8hpp_1a4800b953c786398bc33de2f173c5aff3" name="widget"><type>widget&lt; T &gt;</type><template>
           <template-type-parameter name="T"/>
-        </template><parameter name=""><paramtype>T</paramtype></parameter><description><para>Deduction guide for <link linkend="doxygen.example_reference.structexample_1_1widget">widget</link>.</para><para>Allows <computeroutput>widget</computeroutput> to be constructed from a value of type <computeroutput>T</computeroutput>, deducing the template argument from the constructor argument. </para></description></function>
+        </template><parameter name=""><paramtype>T</paramtype></parameter><description><para>Deduction guide for <link linkend="doxygen.example_reference.structexample_1_1widget">widget</link>.</para><para>Allows <computeroutput>widget</computeroutput> to be constructed from a value of type <computeroutput>T</computeroutput>, deducing the template argument from the constructor argument. </para></description></deduction-guide>
 </namespace>
 <macro id="doxygen.example_reference.example_8hpp_1a27aeb9b516a16c5ab8016104b8f613d1" name="EXAMPLE" kind="functionlike"><macro-parameter name="m"/><purpose>Documentation for macro example. </purpose></macro>
 </header>
